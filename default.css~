@@ -148,7 +148,7 @@ height:42px;width: auto;float:left;text-decoration:none;padding:0px;color: #000;
 
 #page-bg {
 	padding: 11px 24px;
-	background: url(images/imag.gif) no-repeat;
+	background: url(images/jdarduino.jpg) no-repeat;
 }
 
 /* Latest Post */
