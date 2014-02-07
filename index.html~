@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
-Design by Free CSS Templates
+Red de sensores
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 
@@ -15,14 +15,15 @@ Released   : 20080905
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Internet of Things by FCT</title>
 <meta name="keywords" content="" />
-<meta name="Internet of Things  " content="" />
+<meta name="Internet of Things" content="" />
 <link href="default.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
+
 <!-- start header -->
 <div id="logo">
 	<h1><a href="#">Internet of Things  </a></h1>
-	<p>Designed By Free CSS Templates</p>
+	<p>Red de Sensores</p>
 </div>
 <div id="menu">
 	<ul id="main">
@@ -46,19 +47,19 @@ Released   : 20080905
 	<!-- start content -->
 	<div id="content">
 		<div class="post">
-			<h1 class="title"><a>"Sistema de Monitoreo de Sensores"</a>
-			<p class="byline"><small>Publicado Febrero del 2014 </a></small></p>
+			<h1 class="title"><a>"Sistema de Monitoreo de Sensores"</a></h1>
+			<p class="byline"><small>Publicado Febrero del 2014 </small></p>
 			<div class="entry">
 				<p><strong>Internet of Things</strong>(Interne de las cosas) o "IoT" se basa en una red de sensores con la capacidad de reunir, analizar, y distribuir datos que podemos convertir en información, de esta manera podemos adiministrar y controlar nuestros objtos o cosas, es por esto que que "IoT" representa la próxima evolución de internet. Actualmente "IoT" se encuentra en sus inicios, está compuesta por una colección dispersa de redes diferentes y con distintos fines, pero el reto de la evolución del internet de las cosas es que estas redes estarán conectadas  con la incorporación de capacidades de seguridad, analisis y administración.</p>
-
-			
+	            </div>
 		</div>
-		<div class="post">
+
+		<div class="entry">
 			<p> “Con mil billones de sensores incorporados en el entorno, todo conectado por sistemas de  computación, software y servicios, será posible escuchar el latido de la Tierra al producirse 
 el impacto entre la humanidad y el planeta tan profundo como cuando la aparición de 
 Internet revolucionó la comunicación”.</p>
  
-	                           </div>
+	                           
 		                 </div>
 		                    <p> Peter Hartwell 
                                         Investigador Sénior, HP Labs </p>
@@ -91,11 +92,7 @@ Internet revolucionó la comunicación”.</p>
 				</ul>
 			</li>
 			<li>
-				<h2>Archivos</h2>
-				<ul>
-					<li><a href="#">Febrero</a> (23)</li>
-					
-				</ul>
+				
 			</li>
 		</ul>
 	</div>
