@@ -32,7 +32,7 @@ h3 {
 }
 
 ul {
-	list-style-image: url(images/img07.jpg);
+	list-style-image: url(images/img07.gif);
 }
 
 a {
@@ -130,7 +130,7 @@ height:42px;width: auto;float:left;text-decoration:none;padding:0px;color: #000;
 	margin: 0 auto;
 	width: 972px;
 	height: 310px;
-	background: url(images/imag.gif) no-repeat left top;
+	background: url(images/img07.jpg) no-repeat left top;
 }
 
 /* Wrapper */
