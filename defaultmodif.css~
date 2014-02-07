@@ -96,14 +96,13 @@ img.right {
 
 /* Menu */
 
-#menu {
-	width: 972px;
-	height: 52px;
-	margin: 0 auto;
-	padding-top: 7px;
-	background: url(images/img02.jpg) no-repeat left top;
+#menu{
+width:900px;
+height:42px;
+padding:0px;
+clear:both;
+background-color:#416271;
 }
-
 #menu ul{
 list-style:none;padding:0 0 0 230px;margin: auto;display:block;
 }
