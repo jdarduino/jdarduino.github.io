@@ -13,7 +13,7 @@ Released   : 20080905
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Internet of Things by FCT</title>
+<title>Internet of Things</title>
 <meta name="keywords" content="" />
 <meta name="Internet of Things" content="" />
 <link href="default.css" rel="stylesheet" type="text/css" media="screen" />
@@ -22,7 +22,7 @@ Released   : 20080905
 
 <!-- start header -->
 <div id="logo">
-	<h1><a href="#">Internet of Things  </a></h1>
+	<h1> Internet of Things  </h1>
 	<p>Red de Sensores</p>
 </div>
 <div id="menu">
@@ -46,25 +46,26 @@ Released   : 20080905
 <div id="page">
 	<!-- start content -->
 	<div id="content">
-		<div class="post">
-			<h1 class="title"><a>"Sistema de Monitoreo de Sensores"</a></h1>
+		    <div class="post">
+			<h2 class="title">"Sistema de Monitoreo de Sensores"</h2>
 			<p class="byline"><small>Publicado Febrero del 2014 </small></p>
-			<div class="entry">
-				<p><strong>Internet of Things</strong>(Interne de las cosas) o "IoT" se basa en una red de sensores con la capacidad de reunir, analizar, y distribuir datos que podemos convertir en información, de esta manera podemos adiministrar y controlar nuestros objtos o cosas, es por esto que que "IoT" representa la próxima evolución de internet. Actualmente "IoT" se encuentra en sus inicios, está compuesta por una colección dispersa de redes diferentes y con distintos fines, pero el reto de la evolución del internet de las cosas es que estas redes estarán conectadas  con la incorporación de capacidades de seguridad, analisis y administración.</p>
-	            </div>
-		</div>
 
-		<div class="entry">
-			<p> “Con mil billones de sensores incorporados en el entorno, todo conectado por sistemas de  computación, software y servicios, será posible escuchar el latido de la Tierra al producirse 
+			 
+				<p><strong>Internet of Things</strong>(Interne de las cosas) o "IoT" se basa en una red de sensores con la capacidad de reunir, analizar, y distribuir datos que podemos convertir en información, de esta manera podemos adiministrar y controlar nuestros objtos o cosas, es por esto que que "IoT" representa la próxima evolución de internet. Actualmente "IoT" se encuentra en sus inicios, está compuesta por una colección dispersa de redes diferentes y con distintos fines, pero el reto de la evolución del internet de las cosas es que estas redes estarán conectadas  con la incorporación de capacidades de seguridad, analisis y administración.</p>
+	            
+                     </div>                   
+
+                                  <div class="post">		
+				<p> “Con mil billones de sensores incorporados en el entorno, todo conectado por sistemas de  computación, software y servicios, será posible escuchar el latido de la Tierra al producirse 
 el impacto entre la humanidad y el planeta tan profundo como cuando la aparición de 
 Internet revolucionó la comunicación”.</p>
  
-	                           
-		                 </div>
-		                    <p> Peter Hartwell 
-                                        Investigador Sénior, HP Labs </p>
+	                           </div>
+		                
+		                   <p> Peter Hartwell 
+                                       Investigador Sénior, HP Labs </p>
 	    	
-	                    </div>
+	</div>              
 
 	<!-- end content -->
 	<!-- start sidebars -->
