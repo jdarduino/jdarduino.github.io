@@ -130,7 +130,7 @@ height:42px;width: auto;float:left;text-decoration:none;padding:0px;color: #000;
 	margin: 0 auto;
 	width: 972px;
 	height: 310px;
-	background: url(images/img03.jpg) no-repeat left top;
+	background: url(images/imag.gif) no-repeat left top;
 }
 
 /* Wrapper */
@@ -148,7 +148,7 @@ height:42px;width: auto;float:left;text-decoration:none;padding:0px;color: #000;
 
 #page-bg {
 	padding: 11px 24px;
-	background: url(images/img03.jpg) no-repeat;
+	background: url(images/imag.gif) no-repeat;
 }
 
 /* Latest Post */
