@@ -94,12 +94,6 @@ img.right {
 	color: #FFFFFF;
 }
 
-#main_container{
-width: auto;
-float:right;
-padding:3px 25px 3px 0;
-background:#FFFFFF;
-}
 
 /* Menu */
 
@@ -108,7 +102,11 @@ background:#FFFFFF;
 	height: 52px;
 	margin: 0 auto;
 	padding-top: 7px;
-	background: url(images/img02.jpg) no-repeat left top;
+	background: url(images/img02.jpg) no-repeat 
+
+
+
+ top;
 }
 
 #menu ul{
