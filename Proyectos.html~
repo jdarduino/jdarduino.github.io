@@ -12,7 +12,6 @@
 	<div id="header">
     	<div id="logo"><a href="Inicio.html"><img src="images/robot01.gif" alt="" title="" border="0"></a></div>
         
-<script src="//www.gmodules.com/ig/ifr?url=http://www.fotoviaje.net/calendarioweb/calendario.xml&amp;synd=open&amp;w=220&amp;h=160&amp;title=Calendario+&amp;border=%23ffffff%7C0px%2C1px+solid+%2399BB66%7C0px%2C2px+solid+%23AACC66%7C0px%2C2px+solid+%23BBDD66&amp;output=js"></script>
 
 <!-- start header -->
 <div id="logo">
@@ -21,8 +20,8 @@
 </div>
 <div id="menu">
 	<ul id="main">
-                <li><a class="current_page_item" href="Inicio.html" title="">Inicio</a></li>
-		<li><a href="Proyectos.html">Proyectos</a></li>
+                <li><a href="Inicio.html" title="">Inicio</a></li>
+		<li><a class="current_page_item" href="Proyectos.html">Proyectos</a></li>
 		<li><a href="Enery.html">Energy</a></li>
 		<li><a href="Monitoring.html">Monitoring</a></li>
 		<li><a href="Twitter.html">Twitter</a></li>
@@ -184,6 +183,4 @@ Internet revolucionó la comunicación”. <strong>(Peter Hartwell Investigador 
 	<p>&copy;2008 All Rights Reserved. &nbsp;&nbsp; Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.</p>
 </div>
 </body>
-
-
 </html>
