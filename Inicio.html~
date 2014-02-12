@@ -24,14 +24,14 @@
 <div id="menu">
 	<ul id="main">
                 <li><a class="current_page_item" href="Inicio.html" title="">Inicio</a></li>
-		<li><a href="Proyectos.html">Proyectos</a></li>
-		<li><a href="Enery.html">Energy</a></li>
-		<li><a href="Monitoring.html">Monitoring</a></li>
-		<li><a href="Twitter.html">Twitter</a></li>
+		<li><a href="Proyectos.html"title="">Proyectos</a></li>
+		<li><a href="Energy.html"title="">Energy</a></li>
+		<li><a href="Monitoring.html"title="">Monitoring</a></li>
+		<li><a href="Twitter.html"title="">Twitter</a></li>
 	</ul>
 	<ul id="feed">
-		<li><a href="Bibliografía.html">Bibliografía</a></li>
-		<li><a href="Anexos.html">Anexos</a></li>
+		<li><a href="Bibliografía.html"title="">Bibliografía</a></li>
+		<li><a href="Anexos.html"title="">Anexos</a></li>
 	</ul>
 </div>
 <!-- end header -->
@@ -46,12 +46,16 @@
 			<h2 class="title">"Sistema de Monitoreo de Sensores"</h2>
 			<p class="byline"><small>Publicado Febrero del 2014 </small></p>
 
-			 
-				<p><strong>Internet of Things</strong> (Interne de las cosas) o "IoT" se basa en una red de sensores con la capacidad de reunir, analizar, y distribuir datos que podemos convertir en información, de esta manera podemos adiministrar y controlar nuestros objtos o cosas, es por esto que que "IoT" representa la próxima evolución de internet. Actualmente "IoT" se encuentra en sus inicios, está compuesta por una colección dispersa de redes diferentes y con distintos fines, pero el reto de la evolución del internet de las cosas es que estas redes estarán conectadas  con la incorporación de capacidades de seguridad, analisis y administración.</p>
+			<p style="text-align: justify;"> 
+				
+<strong>Internet of Things</strong> (Interne de las cosas) o "IoT" se basa en una red de sensores con la capacidad de reunir, analizar, y distribuir datos que podemos convertir en información, de esta manera podemos adiministrar y controlar nuestros objtos o cosas, es por esto que que "IoT" representa la próxima evolución de internet. Actualmente "IoT" se encuentra en sus inicios, está compuesta por una colección dispersa de redes diferentes y con distintos fines, pero el reto de la evolución del internet de las cosas es que estas redes estarán conectadas  con la incorporación de capacidades de seguridad, analisis y administración.</p>
+<p style="text-align: justify;">
+<p>Nuestro primer proyecto se basa en el diseño e implementación de un sistema de medición de energía eléctrica, posteriormente se realiza la transmisión de los datos, para monitorear el consumo de energía en tiempo real, finalmente se verá la posibilidad de implentar la retroalimentación para así poder controlar la carga de nuestra red electrica.... </p>
 	            
                           </div>           
 
                                  <div class="post"> 	
+   <p style="text-align: justify;">
 				<p> “Con mil billones de sensores incorporados en el entorno, todo conectado por sistemas de  computación, software y servicios, será posible escuchar el latido de la Tierra al producirse 
 el impacto entre la humanidad y el planeta tan profundo como cuando la aparición de 
 Internet revolucionó la comunicación”. <strong>(Peter Hartwell Investigador Sénior, HP Labs)</strong></p>
@@ -61,44 +65,30 @@ Internet revolucionó la comunicación”. <strong>(Peter Hartwell Investigador 
 
 	<!-- end content -->
 	<!-- start sidebars -->
-	<div id="sidebar1" class="sidebar">
-		<ul>
-			<li>
-				<h2>Último Post</h2>
-				<ul>
-					<li><a href="#">Energía Electrica</a></li>
-					
-				</ul>
-			</li>
-			<li>
-				<h2>Sistema en Xively</h2>
-				<ul>
-					<li><a href="https://xively.com/feeds/605268090"                       rel="nofollow">Monitoreo en xively</a>    
+		<div id="sidebar1" class="sidebar">
+		
+<a class="twitter-timeline" href="https://twitter.com/JD_Arduino" data-widget-id="432238081404461056">Tweets por @JD_Arduino</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-			       </ul>
-			 </li>
-			 <li>
-				<h2>Sistemas</h2>
-				<ul>
-					<li><a href="#">Arduino</a></li>
-					
-				</ul>
-			</li>
-			<li>
-				
-			</li>
-		</ul>
+
+
+
+
 	</div>
 	<div id="sidebar2" class="sidebar">
 		<ul>
+			
+				
 			<li>
 				<h2>Tags</h2>
-				<p><a href="#">Energía</a> <a href="#">Arduino</a> <a href="#">Sensores</a> <a href="#">Monitoreo</a> <a href="#">xiveli</a> <a href="#">Loja</a> <a href="#">Sistema</a> 
+				<p><a href="#">Energía</a> <a href="#">Arduino</a> <a href="#">Sensores</a> <a href="#">Monitoreo</a> <a href="#">xiveli</a> <a href="#">Loja</a> <a href="#">Sistema</a></li> 
 			<li>
+
+
 				<h2>Calendario</h2>
-				<div id="calendar_wrap">
-		
+
 <SCRIPT type="text/javascript">
+//  Begin Mensaje-------------------------------------------------------------------------------------------------------------->
 
 msgFont='Arial,helvetiva';
 msgFontSize="12";
@@ -114,7 +104,7 @@ this.titulo = titulo
 }
 
 var eventos = new Array()
-eventos[0] = new evento (2,7,"evento del 2 julio jajaja")
+eventos[0] = new evento (8,2,"Iniciamos aprendiendo html")
 eventos[1] = new evento (5,8,"este marca el evento del 5 agosto")
 eventos[2] = new evento (15,7,"Mi evento de aiesec colombia<u><font color=ff0000>@++</font></u>")
 eventos[3] = new evento (10,8,"Cumpleaño <u><font color=ff0000>Linda</font></u>")
@@ -249,29 +239,21 @@ cal += '</TD></TR></TABLE></TABLE>';
 
 </SCRIPT>
 
-<p>Calendario
-<br>
+
 <SCRIPT  type="text/javascript">
 //  PRINT CALENDAR
 document.write(cal);
 </SCRIPT>
 <div id="divMessage" style="position:absolute; width:175px; height:80px; font-size: 12px; font-family: Arial; color:#000000;">
-      Aqui se muestra el evento que se&ntilde;ales en el Calendario!!! <br>
      </div>
 
-
-				</div>
+			</p>
+	
 			</li>
-			<li>
 
-			                <h2>Archivos</h2>
-				<ul>
-					<li><a href="#">Febrero</a> (23)</li>
-					
-				</ul>
-			</li>
 		</ul>
 	</div>
+
 
 	<!-- end sidebars -->
 	<div style="clear: both;">&nbsp;</div>
@@ -279,7 +261,7 @@ document.write(cal);
 <!-- end page -->
 </div>
 <div id="footer">
-	<p>&copy;2008 All Rights Reserved. &nbsp;&nbsp; Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.</p>
+	<p>&copy;2014 All Rights Reserved. &nbsp;&nbsp; Design by <a href="https://github.com/jdarduino" rel="nofollow">github.jdarduino.com</a>.</p>
 </div>
 </body>
 

@@ -20,15 +20,15 @@
 </div>
 <div id="menu">
 	<ul id="main">
-                <li><a href="Inicio.html" title="">Inicio</a></li>
-		<li><a class="current_page_item" href="Proyectos.html"title="">Proyectos</a></li>
-		<li><a href="Enery.html"title="">Energy</a></li>
-		<li><a href="Monitoring.html"title="">Monitoring</a></li>
-		<li><a href="Twitter.html"title="">Twitter</a></li>
+                <li><a href="Home.html" title="">Home</a></li>
+		<li><a href="Projects.html" title="">Projects</a></li>
+		<li><a href="GetElectricity.html" title="">GetElectricity</a></li>
+		<li><a href="GetEnergy.html" title="">GetEnergy</a></li>
+		<li><a class="current_page_item" href="InfEnergy.html" title="">InfEnergy</a></li>
 	</ul>
 	<ul id="feed">
-		<li><a href="Bibliografía.html"title="">Bibliografía</a></li>
-		<li><a href="Anexos.html"title="">Anexos</a></li>
+		<li><a href="About.html" title="">About</a></li>
+		<li><a href="Galería.html" title="">Galería</a></li>
 	</ul>
 </div>
 <!-- end header -->
@@ -38,43 +38,45 @@
 <!-- start page -->
 <div id="page">
 	<!-- start content -->
-	<div id="content">
-		    <div class="post">
-			<h3 class="title">Sistema Inteligente de Medición del consumo de Eenergía Electrica</h3>
-						 
-				<pstyle="text-align: justify;">Este proyecto se trata del desarrollo del hardware y
-software necesarios para la cálculo de las variables eléctricas, permitiendo tener conocimiento de
-la energía eléctrica consumida de una vivienda en tiempo real, estas variables son;
-corriente y tensión eficaz, potencia activa, potencia aparente, y el consumo de energía eléctrica, diaria, mensual y acumulada. La medición de energía electrica diaria se lo hace en Wh esto para poder observar de una manera mas adecuada la energía consumida,a esto se incluye el cálculo del costo a pagar por kWh
-mensual consumido. Finalmente se realiza el envío de estas variables a través de una shield ethernet a internet, de esta manera se puede monitorear la energía consumida en un domicilio de manera eficiente. La medición se realiza en un sistema monofásico, con un límite de corriente de carga de 100 A. </p>
+            <div id="content">
+	    <div class="post">
+			<h2 class="title">Informe del Costo y Consumo de Energia Electrica</h2>
+			<p></p>
 	            
                           </div>           
 
                                  <div class="post"> 	
-				<pstyle="text-align: justify;"> 
-                                 Este prototipo se basa en la plataforma arduino, particularmente
-en la placa “ArduinoMega2560 R3” el cual tiene un microprocesador con las
-características y funciones requeridas para la implementación de este sistema. El
-hardware está constituido por cuatro partes principales; la primera es la obtención de
-las señales físicas de corriente y voltaje las cuales se las obtiene mediante los sensores
-respectivos, la segunda parte consiste en la adecuación de estas señales, para lo cual se
-emplea circuitos electrónico, luego se utiliza el microprocesador para el
-procesamiento digital de las señales obtenidas, y Finalmente se utiliza una placa
-compatible con arduino (Shield ethernet), para establecer la comunicación a internet,
-y para la visualización se hace uso de un Display de Cristal Líquido-Táctil (TFT-LCD).</p>
-                  
-	    	             </div>             
-	</div>              
+	<h3 class="title" style="text-align: justify;">Informe del Costo de Energía Electrica</h3>
+<p style="text-align: justify;">Gráfica que nos permite obtener un informe del costo de energía eléctrica por kWh consumido, debe seleccionar si desea informe anual, mensual, o diario, datos aún no disponibles...Estamos en etapa de desarrollo</p>
+
+<iframe style="width:580px; height:400px;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://emoncms.org/vis/zoom&power=32283&kwhd=32287&currency=$&currency_after_val=1&pricekwh=0.08&embed=1"></iframe>
+	    	             </div>    
+
+
+
+
+                             <div class="post"> 	
+				<p>Energía Total</p>
+	    	             </div>   
+
+
+           
+	<div class="post">           
+	<a href="https://twitter.com/share" class="twitter-share-button" data-via="JD_Arduino" data-lang="es" data-related="Jose_DavidCH" data-hashtags="ElectronicaYTelecomunicaciones" data-dnt="true">Twittear</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                  </div>   
+   </div>       
+
+     
+     
 
 	<!-- end content -->
 	<!-- start sidebars -->
-		<div id="sidebar1" class="sidebar">
+	<div id="sidebar1" class="sidebar">
 		
-<a class="twitter-timeline" href="https://twitter.com/JD_Arduino" data-widget-id="432238081404461056">Tweets por @JD_Arduino</a>
+		
+<a class="twitter-timeline" href="https://twitter.com/JD_Arduino" data-widget-id="433422570386231296">Tweets por @JD_Arduino</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
-
 
 
 	</div>
@@ -258,7 +260,7 @@ document.write(cal);
 <!-- end page -->
 </div>
 <div id="footer">
-<p>&copy;2014 All Rights Reserved. &nbsp;&nbsp; Design by <a href="https://github.com/jdarduino" rel="nofollow">github.jdarduino.com</a>.</p>
+	<p>&copy;2014 All Rights Reserved. &nbsp;&nbsp; Design by <a href="https://github.com/jdarduino" rel="nofollow">github.jdarduino.com</a>.</p>
 </div>
 </body>
 </html>

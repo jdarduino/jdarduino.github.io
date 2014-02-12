@@ -1,10 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title> Internet of Things </title>
 <meta name="keywords" content="" />
 <meta name="Golden Gate  " content="" />
 <link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+
 </head>
 <body>
 
@@ -13,6 +15,7 @@
     	<div id="logo"><a href="Inicio.html"><img src="images/robot01.gif" alt="" title="" border="0"></a></div>
         
 
+
 <!-- start header -->
 <div id="logo">
 	<h1> Internet of Things  </h1>
@@ -20,15 +23,15 @@
 </div>
 <div id="menu">
 	<ul id="main">
-                <li><a href="Inicio.html" title="">Inicio</a></li>
-		<li><a class="current_page_item" href="Proyectos.html"title="">Proyectos</a></li>
-		<li><a href="Enery.html"title="">Energy</a></li>
-		<li><a href="Monitoring.html"title="">Monitoring</a></li>
-		<li><a href="Twitter.html"title="">Twitter</a></li>
+                <li><a href="Home.html" title="">Home</a></li>
+		<li><a href="Projects.html" title="">Projects</a></li>
+		<li><a href="GetElectricity.html" title="">GetElectricity</a></li>
+		<li><a href="GetEnergy.html" title="">GetEnergy</a></li>
+		<li><a href="InfEnergy.html" title="">InfEnergy</a></li>
 	</ul>
 	<ul id="feed">
-		<li><a href="Bibliografía.html"title="">Bibliografía</a></li>
-		<li><a href="Anexos.html"title="">Anexos</a></li>
+		<li><a href="About.html" title="">About</a></li>
+		<li><a class="current_page_item" href="Galería.html" title="">Galeía</a></li>
 	</ul>
 </div>
 <!-- end header -->
@@ -40,54 +43,51 @@
 	<!-- start content -->
 	<div id="content">
 		    <div class="post">
-			<h3 class="title">Sistema Inteligente de Medición del consumo de Eenergía Electrica</h3>
-						 
-				<pstyle="text-align: justify;">Este proyecto se trata del desarrollo del hardware y
-software necesarios para la cálculo de las variables eléctricas, permitiendo tener conocimiento de
-la energía eléctrica consumida de una vivienda en tiempo real, estas variables son;
-corriente y tensión eficaz, potencia activa, potencia aparente, y el consumo de energía eléctrica, diaria, mensual y acumulada. La medición de energía electrica diaria se lo hace en Wh esto para poder observar de una manera mas adecuada la energía consumida,a esto se incluye el cálculo del costo a pagar por kWh
-mensual consumido. Finalmente se realiza el envío de estas variables a través de una shield ethernet a internet, de esta manera se puede monitorear la energía consumida en un domicilio de manera eficiente. La medición se realiza en un sistema monofásico, con un límite de corriente de carga de 100 A. </p>
-	            
-                          </div>           
+			<h2 class="title">Galería del Primer proyecto</h2>
+			
 
-                                 <div class="post"> 	
-				<pstyle="text-align: justify;"> 
-                                 Este prototipo se basa en la plataforma arduino, particularmente
-en la placa “ArduinoMega2560 R3” el cual tiene un microprocesador con las
-características y funciones requeridas para la implementación de este sistema. El
-hardware está constituido por cuatro partes principales; la primera es la obtención de
-las señales físicas de corriente y voltaje las cuales se las obtiene mediante los sensores
-respectivos, la segunda parte consiste en la adecuación de estas señales, para lo cual se
-emplea circuitos electrónico, luego se utiliza el microprocesador para el
-procesamiento digital de las señales obtenidas, y Finalmente se utiliza una placa
-compatible con arduino (Shield ethernet), para establecer la comunicación a internet,
-y para la visualización se hace uso de un Display de Cristal Líquido-Táctil (TFT-LCD).</p>
-                  
-	    	             </div>             
+			 
+				<p>Aún no disponible...</p>
+
+<p></p>
+	            
+                          </div>   
+<div class="post">           
+	<a href="https://twitter.com/share" class="twitter-share-button" data-via="JD_Arduino" data-lang="es" data-related="Jose_DavidCH" data-hashtags="ElectronicaYTelecomunicaciones" data-dnt="true">Twittear</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>         
+
+                          
 	</div>              
 
 	<!-- end content -->
 	<!-- start sidebars -->
-		<div id="sidebar1" class="sidebar">
-		
+	<div id="sidebar1" class="sidebar">        
 <a class="twitter-timeline" href="https://twitter.com/JD_Arduino" data-widget-id="432238081404461056">Tweets por @JD_Arduino</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+</div> 
 
 
 
 
 	</div>
+
 	<div id="sidebar2" class="sidebar">
 		<ul>
-			
-				
+			<li>
+				<h2>Tags</h2>
+				<p><a href="#">Energía</a> <a href="#">Arduino</a> <a href="#">Sensores</a> <a href="#">Monitoreo</a> <a href="#">xiveli</a> <a href="#">Loja</a> <a href="#">Sistema</a></li> 
 			<li>
 				<h2>Calendario</h2>
-
+				
+				
+		
 <SCRIPT type="text/javascript">
 //  Begin Mensaje-------------------------------------------------------------------------------------------------------------->
-
+/*
+Created by A1 JavaScripts - http://www.a1javascripts.com/
+This may be used freely as long as this msg is intact!
+*/
 msgFont='Arial,helvetiva';
 msgFontSize="12";
 msgFontColor="black"
@@ -245,8 +245,7 @@ document.write(cal);
 <div id="divMessage" style="position:absolute; width:175px; height:80px; font-size: 12px; font-family: Arial; color:#000000;">
      </div>
 
-			</p>
-	
+				
 			</li>
 
 		</ul>
@@ -258,7 +257,9 @@ document.write(cal);
 <!-- end page -->
 </div>
 <div id="footer">
-<p>&copy;2014 All Rights Reserved. &nbsp;&nbsp; Design by <a href="https://github.com/jdarduino" rel="nofollow">github.jdarduino.com</a>.</p>
+	<p>&copy;2014 All Rights Reserved. &nbsp;&nbsp; Design by <a href="https://github.com/jdarduino" rel="nofollow">github.jdarduino.com</a>.</p>
 </div>
 </body>
+
+
 </html>
