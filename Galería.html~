@@ -43,13 +43,15 @@
 	<!-- start content -->
 	<div id="content">
 		    <div class="post">
-			<h2 class="title">Galería del Primer proyecto</h2>
-			
+			<h3 class="title">Galería Sistema de Medición de Energía Eléctrica</h3>
 
-			 
-				<p>Aún no disponible...</p>
-
-<p></p>
+<p style="text-align: justify;">Ensamblado del prototipo de medición de enrgía Eléctrica.</p>
+<img src="images/Prototipo1.jpg" alt="" title="" border="0">
+<img src="images/prototipo4.jpg" alt="" title="" border="0">
+<p style="text-align: justify;">Monitoreo del Sistema de sondeo de Energá Eléctrica</p>
+<img src="images/interfazSense.png" alt="" title="" border="0">
+<img src="images/protitipo6.png" alt="" title="" border="0">			
+			 		
 	            
                           </div>   
 <div class="post">           
@@ -63,8 +65,10 @@
 	<!-- end content -->
 	<!-- start sidebars -->
 	<div id="sidebar1" class="sidebar">        
-<a class="twitter-timeline" href="https://twitter.com/JD_Arduino" data-widget-id="432238081404461056">Tweets por @JD_Arduino</a>
+<a class="twitter-timeline" href="https://twitter.com/JD_Arduino" data-widget-id="433421422673682432">Tweets por @JD_Arduino</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
 </div> 
 
 
@@ -102,10 +106,10 @@ this.titulo = titulo
 }
 
 var eventos = new Array()
-eventos[0] = new evento (8,2,"Iniciamos aprendiendo html")
-eventos[1] = new evento (5,8,"este marca el evento del 5 agosto")
-eventos[2] = new evento (15,7,"Mi evento de aiesec colombia<u><font color=ff0000>@++</font></u>")
-eventos[3] = new evento (10,8,"Cumpleaño <u><font color=ff0000>Linda</font></u>")
+eventos[0] = new evento (6,3,"Primera version de jdarduino.")
+eventos[1] = new evento (10,3,"Primeras pruebas de proyecto (Monitoreo de Energía.)")
+eventos[2] = new evento (17,3,"Se obtiene los resultados de la implementación del sistema.")
+eventos[3] = new evento (20,3,"Presentación del proyecto completo para sus críticas respectivas.")
 
 
 function b_writeIt(obj, text){

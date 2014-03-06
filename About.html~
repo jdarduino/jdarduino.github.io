@@ -61,8 +61,10 @@
 	<!-- end content -->
 	<!-- start sidebars -->
 	<div id="sidebar1" class="sidebar">
-<a class="twitter-timeline" href="https://twitter.com/JD_Arduino" data-widget-id="432238081404461056">Tweets por @JD_Arduino</a>
+<a class="twitter-timeline" href="https://twitter.com/JD_Arduino" data-widget-id="433421422673682432">Tweets por @JD_Arduino</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
 	</div>
 
 	<div id="sidebar2" class="sidebar">

@@ -22,9 +22,9 @@
 	<ul id="main">
 		<li class="current_page_item"><a href="Home.html" title="">Home</a></li>
 		<li><a href="Projects.html"title="">Projects</a></li>
-		<li><a href="Energy.html" title="">Energy</a></li>
-		<li><a href="Monitoring.html"title="">Monitoring</a></li>
-		<li><a href="MonitoringE.html"title="">MonitoringE</a></li>
+		<li><a href="GetElectricity.html" title="">GetElectricity</a></li>
+		<li><a href="GetEnergy.html"title="">GetEnergy</a></li>
+		<li><a href="InfEnergy.html"title="">InfEnergy</a></li>
 	</ul>
 	<ul id="feed">
 		<li><a href="About.htl"title="">About</a></li>
@@ -69,12 +69,12 @@ Internet revolucionó la comunicación”. <strong>(Peter Hartwell Investigador 
 			 <li>
 				<h2>Sistemas</h2>
 				<ul>
-					<li><a href="#">Arduino</a></li>
-					<li><a href="#">Github</a></li>
-                                        <li><a href="#">ShielEthernet</a></li>
-                                        <li><a href="#">Emoncms</a></li>
-                                        <li><a href="#">xively</a></li>
-                                        <li><a href="#">OpenRemote</a></li>
+					<li><A HREF="http://arduino.cc/" TARGET="_BLANK">Arduino</A></li>
+					<li><a href="https://github.com/jdarduino" TARGET="_BLANK">Github</a></li>
+                                        <li><a href="https://xively.com/" TARGET="_BLANK">Xively</a></li>
+                                        <li><a href="http://emoncms.org/" TARGET="_BLANK">Emoncms</a></li>
+                                        <li><a href="http://open.sen.se/"TARGET="_BLANK">OpenSense</a></li>
+                                        <li><a href="http://www.openremote.org/display/HOME/OpenRemote"TARGET="_BLANK">OpenRemote</a></li>
 				</ul>
 			</li>
 
@@ -84,7 +84,7 @@ Internet revolucionó la comunicación”. <strong>(Peter Hartwell Investigador 
 		<ul>
 			<li>
                            <h2>Tags</h2>
-				<a href="#">Energía</a> <a href="#">Arduino</a> <a href="#">Sensores</a> <a href="#">Monitoreo</a> <a href="#">xiveli</a> <a href="#">Loja</a> <a href="#">Sistema</a></li> 
+				<a href="#"> Energía</a> <a href="#"> Arduino</a> <a href="#"> Sensores</a> <a href="#">Monitoreo</a> <a href="#"> JDArduino</a> <a href="#"> Loja</a> <a href="#"> Sistema</a></li> 
 			
                            <li>
 
@@ -108,10 +108,10 @@ this.titulo = titulo
 }
 
 var eventos = new Array()
-eventos[0] = new evento (8,2,"Primera version de jdarduino")
-eventos[1] = new evento (5,8,"este marca el evento del 5 agosto")
-eventos[2] = new evento (15,7,"Mi evento de aiesec colombia<u><font color=ff0000>@++</font></u>")
-eventos[3] = new evento (10,8,"Cumpleaño <u><font color=ff0000>Linda</font></u>")
+eventos[0] = new evento (6,3,"Primera version de jdarduino")
+eventos[1] = new evento (10,3,"Primeras pruebas de proyecto (Monitoreo de Energía)")
+eventos[2] = new evento (17,3,"Se obtiene los resultados de la implementación del sistema")
+eventos[3] = new evento (20,3,"Presentación del proyecto completo para sus críticas respectivas")
 
 
 function b_writeIt(obj, text){
